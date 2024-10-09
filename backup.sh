@@ -1,0 +1,1 @@
+docker exec -i LR2Db /bin/bash -c "PGPASSWORD=admin pg_dump --username admin postgres" > dump_`date +%d-%m-%Y"_"%H_%M_%S`.sql
